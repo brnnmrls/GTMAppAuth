@@ -10,6 +10,6 @@ target 'Example-macOSForPod' do
   # In production, you would use:
   # pod 'GTMAppAuth'
 
-  pod 'AppAuth', '~> 1.7'
+  pod 'AppAuth', :git => 'https://github.com/brnnmrls/AppAuth-iOS.git'
   pod 'GTMSessionFetcher/Core', '>= 3.3', '< 4.0'
 end

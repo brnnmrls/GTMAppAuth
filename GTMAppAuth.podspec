@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = 'GTMAppAuth'
-  s.version       = '4.1.1'
+  s.version       = '5.0.0'
   s.swift_version = '4.0'
   s.summary       = 'Authorize GTM Session Fetcher requests with AppAuth via GTMAppAuth'
 
@@ -14,11 +14,11 @@ requests with AppAuth.
 
                     DESC
 
-  s.homepage      = 'https://github.com/google/GTMAppAuth'
+  s.homepage      = 'https://github.com/brnnmrls/GTMAppAuth'
   s.license       = { :type => 'Apache', :file => 'LICENSE' }
   s.author        = 'Google LLC'
 
-  s.source        = { :git => 'https://github.com/google/GTMAppAuth.git', :tag => s.version }
+  s.source        = { :git => 'https://github.com/brnnmrls/GTMAppAuth.git', :tag => s.version }
   s.prefix_header_file = false
   s.source_files = 'GTMAppAuth/Sources/**/*.swift'
   s.resource_bundles = {
