@@ -6,6 +6,10 @@ on:
     - cron: '20 23 * * 4'
   push:
     branches: [ "master" ]
+  pull_request:
+    branches:
+      - master
+      - testing_workflow
   workflow_dispatch:
 
 # Declare default permissions as read only.
